@@ -1,0 +1,57 @@
+
+body{
+    margin: 0;
+    background-image: url(./fondo-valorant.jpg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+    height: 100dvh;
+}
+
+
+.header__nav{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+.header__nav-list{
+    display:flex;
+    justify-content: center;
+    align-items: center; 
+    width: auto;
+}
+
+.header__nav-item{ 
+    list-style-type: none;
+    font-family: Impact;
+    margin: 0 3rem;
+}
+
+.header__nav-item a{ 
+    color: aliceblue; 
+    text-decoration: none; 
+    font-size: 1.4rem;
+}
+
+@media screen and (max-width: 600px) {
+    .header__nav {
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        position: relative;
+        text-align: center;
+        width: 100%;
+    }
+
+    .header__nav-item { 
+        list-style-type: none;
+        font-family: Impact;
+        margin: 0 1rem;
+    }
+}
