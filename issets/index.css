@@ -63,7 +63,7 @@ body{
     align-items: center; 
     gap: 20px;
     width: 100%;
-    max-width: 1300px;
+    max-width: 1200px;
     margin: auto;
     
 }
@@ -89,4 +89,18 @@ body{
     object-fit: cover; 
     margin-top: 14px;
     
+}
+
+@media (max-width: 1024px) {
+    
+    .container__card{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        
+    }
+    .card {
+        flex: 48%;
+        
+    }
 }
